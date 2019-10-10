@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap4prototyping",
+  "version": "0.0.1",
+  "description": "Bootstrap4 Prototyping",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "popper.js": "1.15.0"
+  },
+  "devDependencies": {
+    "lite-server": "2.5.4"
+  }
+}
