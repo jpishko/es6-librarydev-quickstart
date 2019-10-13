@@ -1,0 +1,1 @@
+Barebones template for developing JavaScript web libraries using es6 modules.
