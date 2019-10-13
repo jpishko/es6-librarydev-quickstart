@@ -1,16 +1,22 @@
 {
-  "name": "bootstrap4prototyping",
+  "name": "lotusgrid",
   "version": "0.0.1",
-  "description": "Bootstrap4 Prototyping",
+  "description": "lotusgrid",
   "scripts": {
-    "start": "lite-server"
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "start": "lite-server",
+    "dev": "concurrently --kill-others \"npm run watch\" \"npm run start\""
   },
   "dependencies": {
-    "bootstrap": "4.3.1",
-    "jquery": "3.4.1",
-    "popper.js": "1.15.0"
+    "lodash": "4.17.15"
   },
   "devDependencies": {
-    "lite-server": "2.5.4"
+    "rollup": "^1.16.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "lite-server": "^2.5.4",
+    "concurrently": "^5.0.0"
   }
 }
