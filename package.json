@@ -1,7 +1,12 @@
 {
-  "name": "lotusgrid",
+  "name": "es6-librarydev-quickstart",
   "version": "0.0.1",
-  "description": "lotusgrid",
+  "description": "es6-librarydev-quickstart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpishko/es6-librarydev-quickstart"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
