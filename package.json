@@ -14,14 +14,15 @@
     "dev": "concurrently --kill-others \"npm run watch\" \"npm run start\""
   },
   "dependencies": {
-    "lodash": "4.17.19"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "rollup": "^1.16.2",
-    "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-node-resolve": "^5.1.0",
-    "rollup-plugin-terser": "^5.0.0",
-    "lite-server": "^2.5.4",
-    "concurrently": "^5.0.0"
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "concurrently": "^5.3.0",
+    "lite-server": "^2.6.1",
+    "rollup": "^2.33.3",
+    "rollup-plugin-terser": "^5.0.0"
   }
 }
