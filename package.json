@@ -17,6 +17,7 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
+    "typescript": "^3.4.3",
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@rollup/plugin-typescript": "^6.1.0",
